@@ -32,3 +32,26 @@ const myFunction = function () {
 };
 
 console.log(typeof myObj);
+
+// ******************************************* Memory ********************************************************
+
+// Two types of memory that is Stack Memory(Primitive) and Heap Memory(Non Primitive)
+
+let myTribalChief = "Roman Reigns";
+
+let headOfTheTable = myTribalChief;
+headOfTheTable = "OTC";
+
+console.log(headOfTheTable);
+console.log(myTribalChief);
+
+let userOne = {
+  email: "user@gmail.com",
+  upi: "user@ypl",
+};
+
+let userTwo = userOne;
+userTwo.email = "user2@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
