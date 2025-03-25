@@ -20,8 +20,8 @@ console.log(Array.isArray([1, 2, 3])); // Array.isArray() - Checks if given arra
 console.log(Array.from("Krish")); // Array.from() - creates a new array from an iterable or array-like object
 console.log(Array.from({ name: "Krish" })); //interesting
 
-const score1 = 100;
-const score2 = 200;
-const score3 = 300;
+const score1 = 200;
+const score2 = 300;
+const score3 = 400;
 
-console.log(Array.of(score1, score2, score3)); // Array.of() - creates a new array from a set arguments, ensuring proper array construction.
+console.log(Array.of(score1, score2, score3)); // Array.of() - creates a new array from a set arguments, ensuring proper array constructions.
